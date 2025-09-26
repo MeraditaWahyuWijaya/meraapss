@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:meraapss/home_page.dart';
+import 'package:meraapss/login_page.dart';
 import 'package:meraapss/splash_page.dart';
 
 void main() {
@@ -15,7 +15,7 @@ class MainApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       routes: { 
       '/': (context) => SplashPage(),
-      '/home': (context) => HomePage(),
+      '/Login': (context) => LoginPage(),
       },
     );
   }

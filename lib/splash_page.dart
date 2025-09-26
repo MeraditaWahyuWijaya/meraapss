@@ -14,7 +14,7 @@ class _SplashPageState extends State<SplashPage> {
   void initState() {
     super.initState();
     Timer(Duration(seconds: 10), () {
-    Navigator.pushNamed(context, '/home');
+    Navigator.pushNamed(context, '/Login');
     });
   }
 
@@ -22,7 +22,7 @@ class _SplashPageState extends State<SplashPage> {
   Widget build(BuildContext context) {
     return Scaffold(
         backgroundColor: Color.fromARGB(255, 255, 255, 255) ,
-        body: Center(child: Image.asset('assets/QUOTIDIE.png',width: 200,)),
+        body: Center(child: Image.asset('assets/quotidie.png',width: 200,)),
       );
   }
 }
